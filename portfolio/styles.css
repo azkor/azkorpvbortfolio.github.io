@@ -1,0 +1,523 @@
+body{
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    margin: 0px;
+    flex-direction: column;
+    
+}
+.nav-list {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    
+}
+.nav-item {
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+
+.nav-item a {
+    color: black;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+   
+    
+    
+}
+.nav-item a:hover{
+    background-color:	#999999;
+    opacity: 80%;
+    padding: 15px;
+}
+
+h1{
+    text-align: left;
+    font-size: 130px;
+    font-style: italic;
+    color: white;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    animation-name: h1;
+    animation-duration: 3s;
+}
+.section1{
+    background-color:#f899ff;
+    background-image:
+    radial-gradient(at 63% 26%, hsla(184,82%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 32% 26%, hsla(183,61%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 55% 62%, hsla(286,70%,73%,1) 0px, transparent 50%),
+    radial-gradient(at 21% 72%, hsla(45,92%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 77% 25%, hsla(19,84%,65%,1) 0px, transparent 50%),
+    radial-gradient(at 71% 63%, hsla(248,66%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 30% 60%, hsla(311,76%,62%,1) 0px, transparent 50%);
+    padding-top: 66px;
+    padding-bottom: 43px;
+    
+}
+iframe{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    left: 1000px;
+    top: 200px;
+    
+
+}
+h2{
+    color:#000000;
+    text-align: left;
+    position: absolute;
+    top: 900px;
+    font-size: 30px;
+    right: 4px;
+    left: 110px;
+    font-family: 'Nanum Gothic', sans-serif;
+    animation-name: h2;
+    animation-duration: 3s;
+    
+}
+img{
+    height: 320px;
+    position: absolute;
+    right: 55px;
+    left: 1350px;
+    top:820px;
+    background-color: #000000;
+    border-radius: 4px;
+}
+.section2{
+    background-color: rgb(225, 222, 222);
+    padding-top: 360px;
+    border-radius: 15px;
+    margin: 100px;
+    box-shadow: -18px 32px 17px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    animation-name: section2;
+    animation-duration: 3s;
+}
+.section3{
+    background-color:rgb(225, 222, 222);
+    padding-bottom: 420px;
+    margin: 130px;
+    border-radius: 16px;
+    box-shadow: -18px 32px 17px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+}
+.lang{
+    position: absolute;
+    font-size: 44px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    animation-name: h3;
+    animation-duration: 3s;
+    padding: 20px;
+    left: 34%;
+    top: 1175px;
+    background-color:rgb(225, 222, 222);;
+    border-radius: 15px;
+    
+
+}
+.html{
+    position: absolute;
+    top: 1400px;
+    left: 1000px;
+    background-color: rgb(225, 222, 222);
+    animation-name: html;
+    animation-duration: 5s;
+}
+.css{
+    position: absolute;
+    top: 1400px;
+    left: 500px;
+    background-color: rgb(225, 222, 222);
+    animation-name: css;
+     animation-duration: 5s;
+   
+    
+}
+html{
+    zoom:75%;
+}
+.htmltext{
+    position: absolute;
+    top: 1700px;
+    left: 1130px;
+    font-size: 33px;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    animation-name: htmltext;
+    animation-duration: 7s;
+}
+.csstext{
+    position: absolute;
+    top: 1700px;
+    left: 620px;
+    font-size: 33px;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    animation-name: csstext;
+    animation-duration: 7s;
+}
+.section4{
+    background-color:rgb(225, 222, 222);;
+    margin: 110px;
+    padding-bottom: 140px;
+    border-radius: 15px;
+    box-shadow: 0px 9px 7px 9px rgba(0,0,0,0.1);
+}
+.twitter{
+    position: absolute;
+    top: 1955px;
+    background-color: rgb(225, 222, 222);
+    height: 90px;
+    left: 500px;
+    border-radius: 16px;
+    animation-name: twitter;
+    animation-duration: 5s;
+
+}
+.discord{
+    position: absolute;
+    top: 1955px;
+    background-color: rgb(225, 222, 222);
+    height: 90px;
+    left: 1200px;
+    border-radius: 16px;
+    animation-name: discord;
+    animation-duration: 5s;
+    
+}
+
+.paddle{
+   animation-name: paddle;
+   animation-duration: 3s;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.home{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    height: 69px;
+}
+.discord:hover{
+    animation-name:discord2 ;
+    animation-duration: 3s;
+}
+.twitter:hover{
+    animation-name: twitter2;
+    animation-duration: 3S;
+}
+.nav-item :hover{
+    text-decoration:double
+}
+.icon{
+    height: 69px;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 1750px;
+}
+.dark-mode{
+   background-color: #151515;;
+   
+}
+.dark-mode .nav-item a {
+    color:white;
+
+}
+.dark-mode .nav-list{
+    background-color: #151515;
+}
+.dark-mode h2{
+    color: white;
+}
+.dark-mode .section2{
+    background-color: grey;
+}
+.dark-mode .section3{
+    background-color: grey;
+}
+.dark-mode .html{
+    background-color: grey;
+}
+.dark-mode .css{
+    background-color: grey;
+}
+.dark-mode h3{
+    color:white;
+    text-decoration: underline;
+}
+.dark-mode .htmltext{
+    color:white;
+}
+.dark-mode .csstext{
+    color:white;
+}
+.dark-mode .section4{
+    background-color: grey;
+   
+}
+.dark-mode .discord{
+    background-color: grey;
+    height: 90px;
+    position: absolute;
+    top: 1955px;
+}
+.dark-mode .discord:hover{
+    animation-name: discord3;
+    animation-duration: 3S;
+
+}
+.dark-mode .twitter{
+    background-color: grey;
+    position: absolute;
+    top: 1955px;
+    height: 90px;
+
+}
+.dark-mode .twitter:hover{
+    animation-name: twitter3;
+    animation-duration: 3S;
+}
+.dark-mode .icon{
+    filter: invert();
+
+}
+.dark-mode .home{
+    filter: invert();
+}
+.nav-item a{
+    text-decoration: none;
+}
+h4{
+    position: absolute;
+    left: 47%;
+    top: 65%;
+    font-size:45px;
+    animation-name: about;
+    animation-duration:3s;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    background-color:rgb(225, 222, 222);
+    border-radius: 15px;
+    padding: 20px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+
+}
+h5{
+    position: absolute;
+    left: 48%;
+    top: 1720px;
+    font-size: 35px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border-radius: 15px;
+    padding:16px;
+    background-color:rgb(225, 222, 222);
+    color: #000000;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+
+}
+.dark-mode h4{
+    color: white;
+}
+.dark-mode h5{
+    color: white;
+    background-color: grey;
+}
+.html:hover{
+    height: 350px;
+}
+.css:hover{
+    height: 350px;
+}
+.dark-mode .lang{
+    background-color: grey;
+    text-decoration: none;
+}
+.dark-mode h4{
+    background-color: grey;
+}
+.dark-mode .discord{
+    top: 181%;
+}
+.dark-mode .twitter{
+    top: 181%;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: gray;
+}
+::-webkit-scrollbar-thumb{
+    background:#7289d9
+    
+}
+h3{
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+}
+.dark-mode .section2{
+    box-shadow: -17px 31px 15px -3px rgba(88, 88, 88, 0.1);
+}
+.dark-mode .section3{
+    box-shadow: -17px 31px 15px -3px rgba(88, 88, 88, 0.1);
+}
+.dark-mode .section4{
+    box-shadow: -17px 31px 15px -3px rgba(88, 88, 88, 0.1);
+}
+
+@keyframes discord{
+    from{transform: scale(0);}
+    to{transform: scale(130px);}
+}
+@keyframes twitter{
+    from{transform: scale(0);}
+    to{transform: scale(90px);}
+}
+@keyframes html{
+    from{transform: scale(0);}
+    to{transform: scale(90px);}
+}
+@keyframes section2{
+    from{transform: translateY(0);}
+    to{transform: translateY(-10px);}
+}
+@keyframes h2{
+    from{transform: translateY(-700px);}
+    to{transform: translateY(-800px);}
+}
+@keyframes paddle{
+    from{transform: translateY(-700px);}
+    to{transform: translateY(-800px);}
+}
+@keyframes css{
+    from{transform: scale(0);}
+    to{transform: scale(130px);}
+}
+@keyframes h3{
+    from{transform: scale(0);}
+    to{transform: scale(44px);}
+}
+@keyframes htmltext{
+    from{transform: scale(0);}
+    to{transform: scale(33px);}
+}
+@keyframes csstext{
+    from{transform: scale(0);}
+    to{transform: scale(33px);}
+}
+@keyframes h1 {
+    from{transform: translateX(100px);}
+    to{transform: translateX(0px);}
+}
+@keyframes discord2 {
+    from{background-color: #7289d9;}
+    to{background-color:  rgb(225, 222, 222);;}
+    
+}
+@keyframes twitter2 {
+    from{background-color: #1DA1F2;}
+    to{background-color:  rgb(225, 222, 222);;}
+    
+}
+@keyframes discord3 {
+    from{background-color: #7289d9;}
+    to{background-color: grey;}
+    
+}
+@keyframes twitter3 {
+    from{background-color: #1DA1F2;}
+    to{background-color: grey;}
+    
+}
+@keyframes about {
+    from{transform: translateY(777px);}
+    to{transform: translateY(-300px);}
+}
+@media  screen and (max-width: 1288px){
+    
+    .section1{
+        width: 100%;
+    }
+    .icon{
+        right:  0px;
+    }
+    .paddle{
+        height: 200px;
+        left: 0px;
+    }
+    h4{
+        top:800px
+    }
+    .discord{
+        left:1000px;
+        top:1940px;
+    }
+    .twitter{
+        left: 500px;
+        top:1940px;
+    }
+    .css{
+        left:400px;
+    }
+    .csstext{
+        left: 520px;
+    }
+    .htmltext{
+        top: 1700px;
+        left:1120px;
+    }
+    
+  
+}
+@media  screen and (max-width: 1440px){
+    .icon{
+        left: 1700px;
+    }
+    .paddle{
+        left: 1370px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    .html{
+        left:1130px;
+        top: 1300px;
+
+    }
+    .css{
+        top: 1300px;
+    }
+    .htmltext{
+        left: 1240px;
+        top: 1600px;
+    }
+    .csstext{
+        top: 1600px;
+    }
+    .discord{
+        left:1200px;
+        top: 181%;
+    }
+    .twitter{
+        left:540px;
+        top: 181%;
+    }
+   
+}
